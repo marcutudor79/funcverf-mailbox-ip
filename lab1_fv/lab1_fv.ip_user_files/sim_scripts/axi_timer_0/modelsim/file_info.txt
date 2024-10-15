@@ -1,0 +1,5 @@
+axi_lite_ipif_v3_0_vh_rfs.vhd,vhdl,axi_lite_ipif_v3_0_4,../../../ipstatic/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd,
+lib_cdc_v1_0_rfs.vhd,vhdl,lib_cdc_v1_0_2,../../../ipstatic/hdl/lib_cdc_v1_0_rfs.vhd,
+lib_pkg_v1_0_rfs.vhd,vhdl,lib_pkg_v1_0_3,../../../ipstatic/hdl/lib_pkg_v1_0_rfs.vhd,
+axi_timer_v2_0_vh_rfs.vhd,vhdl,axi_timer_v2_0_31,../../../ipstatic/hdl/axi_timer_v2_0_vh_rfs.vhd,
+axi_timer_0.vhd,vhdl,xil_defaultlib,../../../../lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd,

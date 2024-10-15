@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd" \
+
+# Do not sort compile order
+nosort

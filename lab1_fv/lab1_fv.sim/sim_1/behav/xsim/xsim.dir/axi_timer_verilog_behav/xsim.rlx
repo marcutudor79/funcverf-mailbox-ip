@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2693409949752981436  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_lite_ipif_v3_0_4 -L lib_cdc_v1_0_2 -L lib_pkg_v1_0_3 -L axi_timer_v2_0_31 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi_timer_verilog_behav xil_defaultlib.axi_timer_verilog xil_defaultlib.glbl" , 
+    buildDate : "Oct 13 2023" , 
+    buildTime : "20:47:58" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2023.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/axi_timer_verilog_behav/xsimk.exe\"   \"xsim.dir/axi_timer_verilog_behav/obj/xsim_0.win64.obj\" \"xsim.dir/axi_timer_verilog_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2023.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

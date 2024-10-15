@@ -1,0 +1,66 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_lite_ipif_v3_0_4 -L lib_cdc_v1_0_2 -L lib_pkg_v1_0_3 -L axi_timer_v2_0_31 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [D:/_code/fv/lab1_fv/lab1_fv.srcs/sim_1/new/base_test.sv:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/xbuilds/SWIP/9999.0_0820_0302/installs/lin64/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/proj/xbuilds/SWIP/9999.0_0820_0302/installs/lin64/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4468] File : /proj/xbuilds/SWIP/9999.0_0820_0302/installs/lin64/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv, Line : 25994, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
+WARNING: [XSIM 43-4099] "D:/_code/fv/lab1_fv/lab1_fv.srcs/sources_1/new/axi4Lite_intf.sv" Line 1. Module axi4Lite_intf doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/_code/fv/lab1_fv/lab1_fv.srcs/sources_1/new/axi4Lite_intf.sv" Line 1. Module axi4Lite_intf doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package axi_timer_v2_0_31.tc_types
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package lib_pkg_v1_0_3.lib_pkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package xil_defaultlib.$unit_axi4Lite_intf_sv_314803297...
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling module xil_defaultlib.axi4Lite_intf
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture imp of entity axi_timer_v2_0_31.mux_onehot_f [\mux_onehot_f(c_nb=6,c_family="z...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture imp of entity axi_timer_v2_0_31.counter_f [\counter_f(c_num_bits=32,c_famil...]
+Compiling architecture imp of entity axi_timer_v2_0_31.count_module [\count_module(c_family="zynq")(1...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111001010")(0...]
+Compiling architecture fdrse_v of entity unisim.FDRSE [fdrse_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_mtbf_stages=4)\]
+Compiling architecture imp of entity axi_timer_v2_0_31.timer_control [\timer_control(c_ard_num_ce_arra...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture fdrs_v of entity unisim.FDRS [fdrs_default]
+Compiling architecture imp of entity axi_timer_v2_0_31.tc_core [\tc_core(c_family="zynq",c_ard_n...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=5,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture imp of entity axi_timer_v2_0_31.axi_timer [\axi_timer(c_family="zynq")(1,4)...]
+Compiling architecture axi_timer_0_arch of entity xil_defaultlib.axi_timer_0 [axi_timer_0_default]
+Compiling module xil_defaultlib.axi_timer_verilog
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

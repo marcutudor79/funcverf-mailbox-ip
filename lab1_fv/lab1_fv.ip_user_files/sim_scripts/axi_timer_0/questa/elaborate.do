@@ -1,0 +1,1 @@
+vopt -l elaborate.log +acc=npr -suppress 10016  -L xil_defaultlib -L axi_lite_ipif_v3_0_4 -L lib_cdc_v1_0_2 -L lib_pkg_v1_0_3 -L axi_timer_v2_0_31 -L secureip -work xil_defaultlib xil_defaultlib.axi_timer_0 -o axi_timer_0_opt

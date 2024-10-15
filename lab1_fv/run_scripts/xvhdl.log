@@ -1,0 +1,22 @@
+INFO: [#UNDEF] Analyzing VHDL file "D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd" into library work
+ERROR: [#UNDEF] 'std_logic_1164' is not compiled in library 'ieee' [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:53]
+ERROR: [#UNDEF] 'numeric_std' is not compiled in library 'ieee' [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:54]
+ERROR: [#UNDEF] 'axi_timer' is not compiled in library 'axi_timer_v2_0_31' [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:57]
+ERROR: [#UNDEF] 'standard' is not compiled in library 'std' [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:59]
+INFO: [#UNDEF] analyzing entity 'axi_timer_0'
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:61]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:62]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:63]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:64]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:65]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:66]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:67]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:68]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:69]
+ERROR: [#UNDEF] 'std_logic_vector' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:70]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:71]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:72]
+ERROR: [#UNDEF] 'std_logic_vector' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:73]
+ERROR: [#UNDEF] 'std_logic_vector' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:74]
+ERROR: [#UNDEF] 'std_logic' is not declared [D:/_code/fv/lab1_fv/lab1_fv.gen/sources_1/ip/axi_timer_0/sim/axi_timer_0.vhd:75]
+INFO: [#UNDEF] Sorry, too many errors..
